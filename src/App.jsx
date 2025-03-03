@@ -93,19 +93,8 @@ function App() {
         )}
       </section>
 
-<footer className="bg-gray-900 border-t border-gray-800 py-8 px-4">
-        <div className="container mx-auto max-w-6xl text-center">
-          <motion.p 
-            className="text-gray-400"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-            viewport={{ once: true }}
-          >
-            © {new Date().getFullYear()} Eyob Seleshi. All rights reserved.
-          </motion.p>
-        </div>
-      </footer>
+<footer></footer>
+    
 
       
     </div>
